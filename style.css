@@ -216,30 +216,50 @@ p{
         justify-content: center;
         align-items: center;
     }
-    .navbar ul,li,a{
-       margin-bottom: 320px;
+    .navbar ul,li{
+       display: none;
     }
     header{
-        height: 90px;
+        padding: 10px;
     }
     .apresentacao{
         display: flex;
-        flex-direction: column-reverse; 
-        margin-top: 300px;
+        flex-direction: column-reverse;
+        margin-top: 100px;   
     }
+    .apresentacao img{
+       height: 300px;   
+    }
+    .apresentacao a{
+        height: 50px;
+        width: 350px; 
+        padding: 10px;
+     }
     .quemsomos{
         display: flex;
         flex-direction: column-reverse;
         margin: 30px;
         padding: 50px;
     }
+    .quemsomos img{
+        height: 250px
+    }
    .container{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
    }
    .serviços{
        display: flex;
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .serviços img{
+       height: 100px;
+       width: 100px;
    }
    html{
     scroll-behavior: smooth;
